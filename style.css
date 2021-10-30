@@ -118,17 +118,18 @@ h1 span,
 }
 
 /* Section: About */
-.about-section{
+.about{
   margin-top: 140px;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(255, 253, 253);
   padding:10px;
 }
-.about-comment {
+.about-text {
+  padding:50px;
   margin-bottom: 180px;
 }
 
-img{
-  width: 80%;
+.img-fluid{
+  width: 100%;
   height: auto; 
 }
 
