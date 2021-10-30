@@ -39,28 +39,22 @@ body{
                           /* Section:Reveal */
 /* ========================================================================== */
 
-/* Name */
-.reveal{
-  margin-top: 160px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-/* This is the quote */
-#reveal{
-  /* margin-top: ;  */
+.section-heading{
+  margin-top:350px;
+  margin-bottom:300px;
   text-align: center;
 }
 
 h1{
-  font-size: 60px;
+  font-size: 5.5em;
   color:white;
   position:relative;
   display:inline-block; 
   animation: text-reveal .5s ease forwards;
   animation-delay: 1s;
 } 
-.quote{
-  font-size: 25px;
+.quote {
+  font-size: 2em;
   color:white;
   position:relative;
   display:inline-block;
@@ -97,16 +91,22 @@ h1 span,
   }
 } 
 
+
 /* Section: Portfolio */
+
+h2{
+  margin-top:30px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
 .card-img-top:hover {
 	transform: scale(1.1);	
 }
 
-.section-heading, h2{
-  margin-top:130px;
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 2.5rem;
+.section-container{
+  background-color: rgb(243, 243, 243);
 }
 
 #projects1{
@@ -133,52 +133,16 @@ h1 span,
   height: auto; 
 }
 
-/* Section: Contact */
 
-#contact-section-container{
-  padding: 80px;
-}
-
-/* Style inputs with type="text",type="email" */
-input[type=text],[type=email], textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow user to vertically resize textarea */
-}
-
-/* Style button with a specific background color */
-button[type=submit],[type=toTop] {
-  background-color:rgb(101, 115, 179);
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* Apply a darker color when hovering over the submit button */
-button[type=submit]:hover {
-  background-color: rgb(46, 54, 90);
-}
-button[type=toTop]:hover {
-  background-color: rgb(46, 54, 90);
-}
-
-/* ========================================================================= */
-/* Section: Profile Links */
+/* ==========  Section: Profile Links ========== */
 
 .profile-section{
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(243, 243, 243);
   opacity:0.8;
 }
 
 .p-link{
-  color:rgb(101, 115, 179)
+  color:rgb(73, 81, 119)
 }
 
 
