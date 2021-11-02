@@ -22,11 +22,13 @@ body{
   font-weight: 400;
   width: 100%;
   top: 0; 
+  /* margin:0; */
+  padding:0;
 }
 
 .nav-item,.nav-link {
-  color: #495057;
-  font-size: 1.2rem;
+  color: #413243;
+  font-size: 1.6rem;
   position: relative;
   list-style-type: none; 
 }
@@ -37,17 +39,22 @@ body{
   font-weight: 700; 
 }
 
-/* Section:Reveal  */
+/* Section:Header  */
 
+.container-fluid{
+  background-color:rgb(235, 235, 235);
+  margin:0;
+  padding:0;
+}
 .section-heading{
-  margin-top:350px;
+  margin-top:300px;
   margin-bottom:300px;
   text-align: center;
 }
 
 h1{
   font-size: 5.5em;
-  color:white;
+  color:rgb(235, 235, 235);
   position:relative;
   display:inline-block; 
   animation: text-reveal 1.5s ease forwards;
@@ -55,7 +62,7 @@ h1{
 } 
 .quote {
   font-size: 2em;
-  color:white;
+  color:rgb(235, 235, 235);
   position:relative;
   display:inline-block;
   animation: text-reveal 1.4s ease forwards; 
@@ -103,14 +110,15 @@ h1 span{
 
 /* Section: Portfolio */
 
+
 .border-primary{
-  border-color:#413243 !important;
+  border:none;
+  /* border-color:#413243 !important; */
 }
 
 .card-img-top:hover {
 	transform: scale(1.1);	
 }
-
 
 
 
