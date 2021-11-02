@@ -53,7 +53,7 @@ body{
 }
 
 h1{
-  font-size: 5.5em;
+  font-size: 4.5em;
   color:rgb(235, 235, 235);
   position:relative;
   display:inline-block; 
@@ -68,6 +68,7 @@ h1{
   animation: text-reveal 1.4s ease forwards; 
   animation-delay: 1.6s;
 }
+
 h1 span{
   position:absolute;
   left:0;
@@ -85,10 +86,10 @@ h1 span{
   top:0;
   height:100%;
   width:0;
-  background-color: rgb(38, 40, 48);
+  background-color: rgb(73, 81, 119);
   animation: overlay 1.6s ease forwards;
   animation-delay: 1.1s; 
-}
+} 
 
 @keyframes overlay{
   50%{
@@ -112,8 +113,8 @@ h1 span{
 
 
 .border-primary{
-  border:none;
-  /* border-color:#413243 !important; */
+  /* border:none; */
+  border-color:#413243 !important;
 }
 
 .card-img-top:hover {
